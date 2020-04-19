@@ -3,11 +3,11 @@
 // @namespace     zuzuvelas/roll20
 // @description	  A dark theme for Roll20.net.
 // @author        RedReign, Zuzuvelas
-// @source        https://github.com/zuzuvelas/User-Scripts
+// @source        https://github.com/zuzuvelas/Roll20-Dark-Theme
 // @include       https://app.roll20.net/editor*
 // @include       https://app.roll20.net/campaigns/chatarchive*
 // @run-at        document-start
-// @version       2020.04.19.1
+// @version       2020.04.19.2
 // @license       GPL-3.0-or-later
 // ==/UserScript==
 (function () {
