@@ -1,17 +1,13 @@
-# Roll20-Dark-Theme
+# Roll20-Dark(er)-Theme
 Dark theme for Roll20. Fully compatible with the base editor as well as the 5e Shaped and OGL sheets.
 Also compatible with the VTT Enhancement Suite (formerly Roll20 Enhancement Suite) extension!
 
-## Installation:
-- Install the [Tampermonkey](https://tampermonkey.net/) extension on your browser.
+Edited to be a UserStyle rather than a UserScript with the ability to customize the accent color
 
-  (Greasemonkey and other userscript extensions may work, but are not currently supported.)
-- [Download and open the userscript in your browser](https://openuserjs.org/install/RedReign/Roll20_Dark.user.js).
-
-- Enjoy!
+[[https://github.com/zuzuvelas/Roll20-Dark-Theme/raw/master/gitlab.user.styl][https://img.shields.io/badge/Install%20directly%20with-Stylus-116b59.svg?longCache=true&style=flat]]
 
 
-If you are the generous type, I have set up a page to buy me a coffee [here](https://www.buymeacoffee.com/redreign).
+If you are the generous type, RedReign has set up a page to buy them a coffee [here](https://www.buymeacoffee.com/redreign).
 
 ## Gallery
 ![Tabletop](/media/stormy-fullscreen.png)
