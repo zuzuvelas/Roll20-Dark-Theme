@@ -7,7 +7,7 @@ Edited to be a UserStyle rather than a UserScript with the ability to customize 
 [![Stylus][stylus-image]][stylus-link]
 
 [stylus-image]: https://img.shields.io/badge/Install%20directly%20with-Stylus-116b59.svg?longCache=true&style=flat
-[stylus-link]: https://github.com/zuzuvelas/Roll20-Dark-Theme/raw/master/gitlab.user.styl
+[stylus-link]: https://github.com/zuzuvelas/Roll20-Dark-Theme/raw/master/roll20.user.styl
 
 
 If you are the generous type, RedReign has set up a page to buy them a coffee [here](https://www.buymeacoffee.com/redreign).
