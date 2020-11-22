@@ -7,19 +7,20 @@
 @supportURL     https://github.com/zuzuvelas/Roll20-Dark-Theme/issues
 @updateURL      https://github.com/zuzuvelas/Roll20-Dark-Theme/raw/master/roll20.user.styl
 @preprocessor   stylus
-@version        1.0.2
+@version        1.0.3
 @license        GPL-3.0-or-later
 
 @var color      accent 'Color: Accent Color' #dcbc65
+@var color      accent-complement 'Color: Secondary Color' #6585dc
 ==/UserStyle== */
 @-moz-document url-prefix("https://app.roll20.net/editor/") {
   :root {
     --accent: accent;
     --accent-dark: darken(accent, 20%);
     --accent-darker: darken(accent, 35%);
-    --accent-complementary: complement(accent);
-    --accent-complementary-dark: darken(complement(accent), 20%);
-    --accent-complementary-darker: darken(complement(accent), 35%);
+    --accent-complementary: accent-complement;
+    --accent-complementary-dark: darken(accent-complement, 20%);
+    --accent-complementary-darker: darken(accent-complement, 35%);
   }
 
   // Define Stylus Variables
@@ -36,7 +37,8 @@
     s("rgba(var(%s), %s)", variable, opacity) sylus
   }
 
-  .sheet-rolltemplate-atkdmg .sheet-solo span {
+  .sheet-rolltemplate-atkdmg .sheet-solo span,
+  .sheet-rolltemplate-atkdmg .sheet-adv span {
     color: white;
   }
 
