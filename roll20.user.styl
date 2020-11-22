@@ -7,7 +7,7 @@
 @supportURL     https://github.com/zuzuvelas/Roll20-Dark-Theme/issues
 @updateURL      https://github.com/zuzuvelas/Roll20-Dark-Theme/raw/master/roll20.user.styl
 @preprocessor   stylus
-@version        1.0.1
+@version        1.0.2
 @license        GPL-3.0-or-later
 
 @var color      accent 'Color: Accent Color' #dcbc65
@@ -34,6 +34,10 @@
   changeOpacity(variable, opacity=1) {
     // return rgba as a string so it doesn't get interpolated by stylus compiler
     s("rgba(var(%s), %s)", variable, opacity) sylus
+  }
+
+  .sheet-rolltemplate-atkdmg .sheet-solo span {
+    color: white;
   }
 
   .button-2 {
