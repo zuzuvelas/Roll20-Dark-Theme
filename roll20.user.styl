@@ -7,7 +7,7 @@
 @supportURL     https://github.com/zuzuvelas/Roll20-Dark-Theme/issues
 @updateURL      https://github.com/zuzuvelas/Roll20-Dark-Theme/raw/master/roll20.user.styl
 @preprocessor   stylus
-@version        1.0.3
+@version        1.0.4
 @license        GPL-3.0-or-later
 
 @var color      accent 'Color: Accent Color' #dcbc65
@@ -850,7 +850,6 @@
   }
 
   .ui-dialog .charsheet input[type=number] {
-    width: 3.5em;
     background-color: transparent !important; //FIXES USES ON CHARACTER SHEET
     color: hsl(0, 0%, 96%) !important;
   }
@@ -1732,6 +1731,14 @@
 
   .charsheet .sheet-spell input[type='checkbox']:checked ~ span.sheet-prep {
     background-color: accent !important
+  }
+
+ .charsheet .sheet-vitals-stats {
+    background-color: #1a1a1a !important;
+  }
+
+  .charsheet .sheet-coin span {
+    color: #A0A0A0 !important;
   }
 
   .sheet-page.sheet-core .sheet-header .sheet-name-container img {
